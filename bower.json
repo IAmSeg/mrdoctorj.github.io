@@ -1,0 +1,11 @@
+{
+  "name": "mrdoctorj-github-io",
+  "private": true,
+  "dependencies": {
+    "vue": "~1.0.15"
+  },
+  "devDependencies": {
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4"
+  }
+}

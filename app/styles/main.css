@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+:root {
+  --dark: #555;
+  --light: #eee;
+  --primary: #05AEFC;
+  --secondary: #09FC83;
+  --tertiary: #FB0044;
+}
+
+/* @global */
+*::selection {
+  background-color: color(var(--tertiary) alpha(60%));
+}
+
+*, ::before, ::after,
+html *,
+html::after,
+html::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  text-align: center;
+}
+/* @end global */
+
+/* @header */
+#header {
+  height: 70px;
+  text-align: center;
+  padding: 20px 0;
+}
+/* @end header */
+
+/* @hero */
+.hero {
+  text-align: center;
+  float: none;
+  height: calc(100vh - 50px);
+}
+
+#intro {
+  position: relative;
+  padding-top: 20vh;
+}
+
+#name,
+#title {
+  font-size: 5em;
+  letter-spacing: .1em;
+  color: var(--dark);
+  font-weight: 300;
+  font-variant: small-caps;
+  width: 490px;
+  margin: 0 auto;
+}
+
+#title {
+  font-size: 2em;
+  text-align: right;
+  margin-bottom: 4em;
+}
+
+#name-first,
+#name-last,
+#title-first,
+#title-second {
+  display: inline-block;
+}
+
+#name-last {
+  color: color(var(--primary) alpha(70%));
+}
+
+/* TODO: maybe remove? */
+#title-first {
+  /*color: var(--tertiary);*/
+}
+
+#title-second {
+  color: color(var(--secondary) alpha(70%));
+}
+/* @end hero */
+
+/* @sections */
+
+.section-header {
+  font-variant: small-caps;
+  padding: 1em;
+  font-size: 2em;
+}
+
+/* @end sections */
+/* @about */
+#about {
+  height: 100vh;
+  background: color(var(--primary) alpha(80%));
+  color: var(--light);
+}
+
+[id^=about-text] {
+  letter-spacing: .1em;
+  margin: 2em auto;
+  max-width: 43em;
+}
+
+#about-text-2 > a {
+  margin: 0;
+}
+/* @end about */
+
+/* @projects */
+#projects {
+  height: 100vh;
+  background: color(var(--tertiary) alpha(80%));
+  color: var(--light);
+}
+/* @end projects */
+
+/* @logos */
+#logo {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+  vertical-align: bottom;
+}
+
+#logo .a,
+#logo .b,
+#logo .c,
+#logo .d {
+  stroke-width: 8px !important;
+}
+
+[id^=logo-] {
+  height: 40px;
+  width: 40px;
+  fill: color(var(--dark));
+  transition: all .5s ease-in-out;
+}
+
+[id^=logo-]:hover {
+  fill: color(var(--primary) alpha(70%));
+}
+
+/* @end logos */
+
+/* @links */
+a {
+  text-decoration: none;
+  color: color(var(--dark) alpha(90%));
+  font-size: 1.2em;
+  margin: 1em;
+  font-family: 'Source Sans Pro';
+  position: relative;
+  transition: color .5s ease-in-out;
+}
+
+#header a:hover {
+  color: color(var(--dark) blackness(70%));
+}
+
+a::before,
+a::after {
+  content: '';
+  position: absolute;
+  top: 28px;
+  background-color: var(--secondary);
+  opacity: .5;
+  width: 0;
+  height: 4px;
+  transition: width .3s;
+}
+
+a::before {
+  left: 0;
+}
+
+a::after {
+  right: 0;
+}
+
+a:hover::before,
+a:hover::after {
+  width: 50%;
+}
+/* @end links */
+
+@import 'macbook.css';

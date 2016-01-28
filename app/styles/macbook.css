@@ -1,0 +1,164 @@
+:root {
+  --blue: #05aefc;
+  --green: #09FC83;
+  --red: #FB0044;
+  --yellow: #E8ED47;
+}
+.macbook {
+  width: 60%;
+  margin: 50px auto;
+  perspective: 750;
+  perspective-origin: 50% bottom;
+  transform-style: preserve-3d;
+}
+
+.macbook-lid {
+  width: 80%;
+  margin: 0 auto;
+  transform-origin: 50% bottom;
+  transform-style: preserve-3d;
+  transition: all 1s;
+}
+
+.macbook-lid:before {
+  display: block;
+  content: '';
+  width: 92%;
+  margin: 0 auto;
+  padding: 2% 3% 0 3%;
+  background-color: #D3D1D2;
+  border-radius: 10px 10px 0 0;
+  transform-origin: 50% bottom;
+  transform: rotate3d(1, 0, 0, 90deg);
+  transition: all 1s;
+}
+
+.macbook-screen {
+  position: relative;
+  background-color: #353535;
+  margin: 0 auto;
+  padding: 3%;
+  border-radius: 5px 5px 0 0;
+  transform-style: preserve-3d;
+  transition: all 1s;
+}
+
+.macbook-screen:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 2%;
+  left: 49%;
+  width: 1%;
+  padding-top: 1%;
+  background-color: #000;
+}
+
+.macbook-content {
+  position: relative;
+  overflow: hidden;
+  background-color: #323C4D;
+  box-shadow: inset 0px 0px 6px #222;
+}
+
+.macbook-content:before {
+  display: block;
+  content: '';
+  width: 1px;
+  padding-top: 60%;
+  float: left;
+}
+
+.macbook-content:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.macbook-close .macbook-lid {
+  transform: rotate3d(-1, 0, 0, 91deg);
+}
+
+.macbook-close .macbook-lid:before {
+  width: 100%;
+}
+
+.macbook-base {
+  width: 100%;
+  overflow: hidden;
+  background-color: #D3D1D2;
+  border-radius: 2px 2px 10px 10px;
+}
+
+.macbook-base:before {
+  display: block;
+  content: '';
+  width: 30%;
+  margin: 0 auto 1% auto;
+  padding-top: 1.5%;
+  background: #B0B0B0;
+  border-radius: 0 0 10px 10px;
+}
+
+.macbook-base:after {
+  display: block;
+  content: '';
+  padding-top: 1%;
+  background-color: #B3B3B3;
+}
+
+.macbook-code {
+  width: 50%;
+  margin: 2px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: var(--green);
+}
+
+.macbook-code:nth-of-type(2n) {
+  top: 25px;
+  left: 20px;
+  width: 60%;
+  background-color: var(--yellow);
+}
+
+.macbook-code:nth-of-type(3n) {
+  top: 40px;
+  left: 20px;
+  width: 70%;
+  background-color: var(--yellow);
+}
+
+.macbook-code:nth-of-type(4n) {
+  top: 55px;
+  width: 30%;
+  background-color: var(--red);
+}
+
+.macbook-code:nth-of-type(5n) {
+  top: 70px;
+  width: 15%;
+  background-color: var(--blue);
+}
+
+.macbook-code:nth-of-type(6n) {
+  top: 85px;
+  left: 20px;
+  width: 40%;
+  background-color: var(--yellow);
+}
+
+.macbook-code:nth-of-type(7n) {
+  top: 100px;
+  width: 30%;
+  background-color: var(--red);
+}
+
+.macbook-code:nth-of-type(8n) {
+  top: 115px;
+  width: 5%;
+  background-color: var(--blue);
+}
