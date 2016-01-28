@@ -6,6 +6,7 @@
 }
 .macbook {
   width: 60%;
+  max-width: 400px;
   margin: 50px auto;
   perspective: 750;
   perspective-origin: 50% bottom;
@@ -77,10 +78,6 @@
 
 .macbook-close .macbook-lid {
   transform: rotate3d(-1, 0, 0, 91deg);
-}
-
-.macbook-close .macbook-lid:before {
-  width: 100%;
 }
 
 .macbook-base {

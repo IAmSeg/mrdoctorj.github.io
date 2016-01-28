@@ -88,11 +88,12 @@ function isScrolledIntoView(elem)
   return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
 
-window.setInterval(() => {
+var i = window.setInterval(() => {
   if (isScrolledIntoView())
     window.setTimeout(openMacbook, 300);
 }, 1000);
 
 function openMacbook() {
   document.querySelector('.macbook').classList.remove('macbook-close');
+  window.clearInterval(i);
 }
