@@ -254,7 +254,12 @@ a:hover::after {
 }
 
 #contact [class^=logo-]:hover {
-  fill: olor(var(--dark) alpha(80%));
+  fill: var(--dark);
+}
+
+#contact a::before,
+#contact a::after {
+  background-color: var(--light);
 }
 /* @end links */
 
