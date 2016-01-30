@@ -42,7 +42,7 @@
       </section>
     </section>
     <section id="about">
-      <h1 id="about-header" class="section-header">{{message}}</h1>
+      <h1 id="about-header" class="section-header">{{header}}</h1>
       <p id="about-text">
         {{aboutText}}
       </p>
@@ -54,8 +54,12 @@
         <my-coffee></my-coffee>
       </section>
     </section>
-    <section id="projects">
-      <h1 id="projects-header" class="section-header">{{message}}</h1>
+    <section id="projects" class="projects open-source">
+      <h1 id="projects-header" class="section-header">{{header}}</h1>
+      <p class="section-desc">{{{desc}}}</p>
+    </section>
+    <section class="projects experiments">
+      <h1 class="section-header">Experiments</h1>
     </section>
 
     <!-- build:js scripts/vendor.js -->
@@ -67,6 +71,8 @@
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <script src="scripts/macbook.js"></script>
+    <script src="scripts/coffee.js"></script>
     <!-- endbuild -->
   </body>
 </html>

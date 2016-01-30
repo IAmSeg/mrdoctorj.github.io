@@ -44,7 +44,8 @@ new Vue({
 new Vue({
   el: '#projects',
   data: {
-    header: 'Projects',
+    header: 'Open Source',
+    desc: 'Here are some of my open source projects. See more on my <a href="https://github.com/MrDoctorJ/">GitHub.</a>',
     projects: [
       { url: 'https://github.com/MrDoctorJ/generator-future-webapp', title: 'generator-future-webapp',
         desc: 'A Yeoman generator to scaffold a front-end project using gulp, babel and cssnext.' },

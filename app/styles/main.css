@@ -33,6 +33,7 @@ html::before {
   text-align: center;
   padding: 20px 0;
 }
+
 /* @end header */
 
 /* @hero */
@@ -93,6 +94,10 @@ html::before {
   font-size: 2em;
 }
 
+.section-desc {
+  letter-spacing: .1em;
+}
+
 /* @end sections */
 /* @about */
 #about {
@@ -118,6 +123,8 @@ html::before {
   background: color(var(--tertiary) alpha(80%));
   color: var(--light);
 }
+
+
 /* @end projects */
 
 /* @logos */
@@ -186,6 +193,11 @@ a::after {
 a:hover::before,
 a:hover::after {
   width: 50%;
+}
+
+.projects a {
+  margin-left: 0;
+  margin-right: 0;
 }
 /* @end links */
 
