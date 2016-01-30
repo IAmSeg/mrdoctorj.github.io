@@ -142,9 +142,20 @@ html::before {
 }
 
 .experiments {
+  min-height: 100vh;
   background-color: color(var(--secondary) alpha(80%));
   color: var(--dark);
 }
+
+.experiments a {
+  color: var(--white);
+}
+
+.experiments a::before,
+.experiments a::after {
+  background-color: var(--primary);
+}
+
 /* @end projects */
 
 /* @logos */
