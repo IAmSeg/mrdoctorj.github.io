@@ -119,7 +119,7 @@ html::before {
 
 /* @projects */
 #projects {
-  min-height: 100vh;
+  min-height: 70vh;
   background: color(var(--tertiary) alpha(80%));
   color: var(--light);
 }
@@ -148,7 +148,7 @@ html::before {
 }
 
 .experiments a {
-  color: var(--white);
+  color: var(--light);
 }
 
 .experiments a::before,
@@ -186,6 +186,16 @@ html::before {
 
 /* @end logos */
 
+/* @codepen embeds */
+.codepen-embeds {
+  padding-top: 2em;
+}
+
+.codepen-embed {
+  display: inline-block;
+  width: 49%;
+}
+/* @end codepen embeds */
 /* @links */
 a {
   text-decoration: none;
