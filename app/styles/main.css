@@ -158,6 +158,18 @@ html::before {
 
 /* @end projects */
 
+/* @contact */
+#contact {
+  min-height: 70vh;
+  background-color: color(var(--primary) alpha(80%));
+  color: var(--light);
+}
+
+.contact-methods {
+  padding-top: 3em;
+}
+/* @end contact */
+
 /* @logos */
 #logo {
   height: 60px;
@@ -173,14 +185,14 @@ html::before {
   stroke-width: 8px !important;
 }
 
-[id^=logo-] {
+[class^=logo-] {
   height: 40px;
   width: 40px;
   fill: color(var(--dark));
   transition: all .5s ease-in-out;
 }
 
-[id^=logo-]:hover {
+[class^=logo-]:hover {
   fill: color(var(--primary) alpha(70%));
 }
 

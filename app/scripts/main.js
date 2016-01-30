@@ -69,6 +69,10 @@ new Vue({
         logo: '/images/github.svg#github', title: 'github' },
       { url: 'http://codepen.io/willalanjohnson/', viewbox: '0 0 256 256',
         logo: '/images/codepen.svg#codepen', title: 'codepen' }
+    ],
+    pngs: [
+      { url: '', path: 'images/linkedin.png', title: 'linkedin'},
+      { url: 'mailto:will@willalanjohnson.com', path: 'images/email-icon.png', title: 'email'}
     ]
   }
 });

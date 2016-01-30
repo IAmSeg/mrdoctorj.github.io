@@ -34,7 +34,7 @@
         </section>
         <section id="links">
           <a v-for="link in links" href="{{link.url}}">
-            <svg id="logo-{{link.title}}" viewbox="{{link.viewbox}}">
+            <svg class="logo-{{link.title}}" viewbox="{{link.viewbox}}">
               <use xlink:href="{{link.logo}}"></use>
             </svg>
           </a>
@@ -84,6 +84,20 @@
           <p data-height="573" data-theme-id="0" data-slug-hash="jPwNVK" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/jPwNVK/'>WWDC15</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
           <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
         </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="section-header">{{header}}</h1>
+      <p class="section-desc">{{{message}}}</p>
+      <div class="contact-methods">
+        <a v-for="svg in svgs" href="{{svg.url}}">
+          <svg class="logo-{{svg.title}}" viewbox="{{svg.viewbox}}">
+            <use xlink:href="{{svg.logo}}"></use>
+          </svg>
+        </a>
+        <a v-for="png in pngs" href="{{png.url}}">
+          <img class="logo-{{png.title}}" src="{{png.path}}">
+        </a>
       </div>
     </section>
 
