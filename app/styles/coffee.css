@@ -1,0 +1,41 @@
+:root {
+  --cup: #fff9ef;
+  --coffee: #4a2500;
+  --coffee-light: #743a00;
+}
+
+.coffee {
+  display: inline-block;
+}
+
+.coffee-cup {
+  width: 70px;
+  height: 60px;
+  position: relative;
+  top: -50px;
+  left: 20px;
+  background-color: var(--cup);
+  border-radius: 0 0 30px 30px;
+}
+
+.coffee-cup::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 70px;
+  height: 20px;
+  border-radius: 50%;
+  background: radial-gradient(var(--coffee), var(--coffee-light));
+}
+
+.coffee-cup::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  height: 20px;
+  width: 50px;
+  border-radius: 10px;
+  top: 10px;
+  border: var(--cup) 4px solid;
+}

@@ -65,19 +65,20 @@ let macbook = Vue.extend({
                     </div>
                   </div>
                 </div>
+              <div class="macbook-lid-close"></div>
               <div class="macbook-base"></div>`
 });
 
 Vue.component('my-macbook', macbook);
 new Vue({
-  el: '#macbook'
+  el: '#computerAndCoffee'
 });
 
 // Open macbook
 // Check if its in view
 function isScrolledIntoView(elem)
 {
-  let el = $('#macbook');
+  let el = $('#computerAndCoffee');
 
   let docViewTop = $(window).scrollTop();
   let docViewBottom = docViewTop + $(window).height();
@@ -95,5 +96,15 @@ var i = window.setInterval(() => {
 
 function openMacbook() {
   document.querySelector('.macbook').classList.remove('macbook-close');
+  $('.macbook-lid-close').hide();
   window.clearInterval(i);
 }
+
+let coffee = Vue.extend({
+  template: `<div class="coffee coffee-cup"></div>`
+});
+
+Vue.component('my-coffee', coffee);
+new Vue({
+  el: '#computerAndCoffee'
+});

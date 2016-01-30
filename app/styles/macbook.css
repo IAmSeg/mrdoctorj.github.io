@@ -4,8 +4,10 @@
   --red: #FB0044;
   --yellow: #E8ED47;
 }
+
 .macbook {
   width: 60%;
+  display: inline-block;
   max-width: 400px;
   margin: 50px auto;
   perspective: 750;
@@ -21,17 +23,14 @@
   transition: all 1s;
 }
 
-.macbook-lid:before {
-  display: block;
-  content: '';
-  width: 92%;
+.macbook-lid-close {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
   margin: 0 auto;
   padding: 2% 3% 0 3%;
   background-color: #D3D1D2;
   border-radius: 10px 10px 0 0;
-  transform-origin: 50% bottom;
-  transform: rotate3d(1, 0, 0, 90deg);
-  transition: all 1s;
 }
 
 .macbook-screen {

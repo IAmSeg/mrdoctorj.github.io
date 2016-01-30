@@ -39,7 +39,7 @@ html::before {
 .hero {
   text-align: center;
   float: none;
-  height: calc(100vh - 50px);
+  min-height: calc(100vh - 50px);
 }
 
 #intro {
@@ -96,7 +96,7 @@ html::before {
 /* @end sections */
 /* @about */
 #about {
-  height: 100vh;
+  min-height: 100vh;
   background: color(var(--primary) alpha(80%));
   color: var(--light);
 }
@@ -114,7 +114,7 @@ html::before {
 
 /* @projects */
 #projects {
-  height: 100vh;
+  min-height: 100vh;
   background: color(var(--tertiary) alpha(80%));
   color: var(--light);
 }
