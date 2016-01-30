@@ -125,11 +125,11 @@ html::before {
 }
 
 .project {
-  margin: 2em;
+  padding-top: 2em;
 }
 
 .project-desc {
-  margin: 1em;
+  padding: 1em;
 }
 
 .project a {
@@ -141,6 +141,10 @@ html::before {
   top: 1.3em;
 }
 
+.experiments {
+  background-color: color(var(--secondary) alpha(80%));
+  color: var(--dark);
+}
 /* @end projects */
 
 /* @logos */
