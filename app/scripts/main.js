@@ -71,7 +71,7 @@ new Vue({
         logo: '/images/codepen.svg#codepen', title: 'codepen' }
     ],
     pngs: [
-      { url: '', path: 'images/linkedin.png', title: 'linkedin'},
+      { url: 'https://www.linkedin.com/in/willalanjohnson', path: 'images/linkedin.png', title: 'linkedin'},
       { url: 'mailto:will@willalanjohnson.com', path: 'images/email-icon.png', title: 'email'}
     ]
   }
