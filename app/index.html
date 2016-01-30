@@ -57,6 +57,10 @@
     <section id="projects" class="projects open-source">
       <h1 id="projects-header" class="section-header">{{header}}</h1>
       <p class="section-desc">{{{desc}}}</p>
+      <div class="project" v-for="project in projects">
+        <a href="{{project.url}}">{{project.title}}</a>
+        <p class="project-desc">{{project.desc}}</p>
+      </div>
     </section>
     <section class="projects experiments">
       <h1 class="section-header">Experiments</h1>

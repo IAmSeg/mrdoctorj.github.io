@@ -124,6 +124,22 @@ html::before {
   color: var(--light);
 }
 
+.project {
+  margin: 2em;
+}
+
+.project-desc {
+  margin: 1em;
+}
+
+.project a {
+  font-size: 2em;
+}
+
+.project a::before,
+.project a::after {
+  top: 1.3em;
+}
 
 /* @end projects */
 
