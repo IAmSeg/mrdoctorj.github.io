@@ -8,3 +8,11 @@ Vue.component('smooth-scroll', smoothScroll);
 new Vue({
   el: '.hero'
 });
+
+new Vue({
+  el: '#about'
+});
+
+new Vue({
+  el: '#projects'
+});

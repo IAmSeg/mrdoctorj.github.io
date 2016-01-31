@@ -13,6 +13,58 @@
 .arrow-link {
   position: absolute;
   bottom: 1em;
-  left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-100%);
+}
+
+.arrow-link:hover .arrow {
+  animation: bounce 1.5s infinite linear;
+}
+
+@keyframes bounce {
+  15% {
+    transform: translateY(0) rotate(45deg);
+    padding-bottom: 5px;
+  }
+
+  30% {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  40% {
+    transform: translateY(0) rotate(45deg);
+    padding-bottom: 6px;
+  }
+
+  50% {
+    transform: translateY(-30%) rotate(45deg);
+  }
+
+  70% {
+    transform: translateY(0%) rotate(45deg);
+    padding-bottom: 7px;
+  }
+
+  80% {
+    transform: translateY(-15%) rotate(45deg);
+  }
+
+  90% {
+    transform: translateY(0%) rotate(45deg);
+    padding-bottom: 8px;
+  }
+
+  95% {
+    transform: translateY(-8%) rotate(45deg);
+    padding-bottom: 8px;
+  }
+
+  99% {
+    transform: translateY(-3%) rotate(45deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(45deg);
+    padding-bottom: 9px;
+    opacity: 1;
+  }
 }

@@ -56,6 +56,7 @@
         <my-macbook></my-macbook>
         <my-coffee></my-coffee>
       </section>
+      <smooth-scroll link="#projects"></smooth-scroll>
     </section>
     <section id="projects" class="projects open-source">
       <h1 id="projects-header" class="section-header">{{header}}</h1>
@@ -64,8 +65,9 @@
         <a href="{{project.url}}">{{project.title}}</a>
         <div class="project-desc">{{project.desc}}</div>
       </div>
+      <smooth-scroll link="#contact"></smooth-scroll>
     </section>
-    <section class="projects experiments">
+    <section class="projects experiments" id="experiments">
       <h1 class="section-header">Experiments</h1>
       <p class="section-desc">
         Here are some of my experiments. See more on my <a href="http://codepen.io/willalanjohnson/">CodePen</a>.

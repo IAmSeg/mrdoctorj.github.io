@@ -101,6 +101,7 @@ html::before {
 /* @end sections */
 /* @about */
 #about {
+  position: relative;
   min-height: 100vh;
   background: color(var(--primary) alpha(80%));
   color: var(--light);
@@ -119,6 +120,7 @@ html::before {
 
 /* @projects */
 #projects {
+  position: relative;
   min-height: 70vh;
   background: color(var(--tertiary) alpha(80%));
   color: var(--light);
@@ -156,6 +158,9 @@ html::before {
   background-color: var(--primary);
 }
 
+#experiments {
+  position: relative;
+}
 /* @end projects */
 
 /* @contact */
@@ -235,8 +240,8 @@ a {
   color: color(var(--dark) blackness(70%));
 }
 
-a::before,
-a::after {
+a:not(.arrow-link)::before,
+a:not(.arrow-link)::after {
   content: '';
   position: absolute;
   top: 28px;
@@ -264,8 +269,6 @@ a:hover::after {
   margin-left: 0;
   margin-right: 0;
 }
-
-
 
 #contact a::before,
 #contact a::after {
