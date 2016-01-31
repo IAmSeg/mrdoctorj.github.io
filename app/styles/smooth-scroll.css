@@ -5,11 +5,14 @@
 .arrow {
   height: 40px;
   width: 40px;
-  display: inline-block;
-  left: 50%;
-  transform: rotate(45deg) translateX(-50%);
+  transform: rotate(45deg);
   border-bottom: 2px solid var(--arrow);
   border-right: 2px solid var(--arrow);
+}
+
+.arrow-link {
   position: absolute;
   bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
 }
