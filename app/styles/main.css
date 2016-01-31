@@ -192,10 +192,22 @@ html::before {
   transition: all .5s ease-in-out;
 }
 
+.logo-email {
+  height: 50px;
+  width: 50px;
+}
+
 [class^=logo-]:hover {
   fill: color(var(--primary) alpha(70%));
 }
 
+#contact [class^=logo-] {
+  fill: color(var(--dark) blackness(80%));
+}
+
+#contact [class^=logo-]:hover {
+  fill: var(--dark);
+}
 /* @end logos */
 
 /* @codepen embeds */
@@ -253,9 +265,7 @@ a:hover::after {
   margin-right: 0;
 }
 
-#contact [class^=logo-]:hover {
-  fill: var(--dark);
-}
+
 
 #contact a::before,
 #contact a::after {

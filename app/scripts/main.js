@@ -68,11 +68,11 @@ new Vue({
       { url: 'https://github.com/MrDoctorJ', viewbox: '0 0 256 250',
         logo: '/images/github.svg#github', title: 'github' },
       { url: 'http://codepen.io/willalanjohnson/', viewbox: '0 0 256 256',
-        logo: '/images/codepen.svg#codepen', title: 'codepen' }
-    ],
-    pngs: [
-      { url: 'https://www.linkedin.com/in/willalanjohnson', path: 'images/linkedin.png', title: 'linkedin'},
-      { url: 'mailto:will@willalanjohnson.com', path: 'images/email-icon.png', title: 'email'}
+        logo: '/images/codepen.svg#codepen', title: 'codepen' },
+      { url: 'https://www.linkedin.com/in/willalanjohnson', logo: 'images/linkedin.svg#linkedin', title: 'linkedin',
+        viewbox: '0 0 550 486' },
+      { url: 'mailto:will@willalanjohnson.com', logo: 'images/email-icon.svg#email', title: 'email',
+        viewbox: '0 0 233 142' }
     ]
   }
 });
