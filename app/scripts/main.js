@@ -58,7 +58,7 @@ new Vue({
   el: '#contact',
   data: {
     header: 'Contact',
-    message: `Need a website build? Need help with a project?<br><br> I have experience with full stack web development
+    message: `Need a website built? Need help with a project?<br><br> I have experience with full stack web development
       and I embrace learning new technologies.<br><br> You can get in touch with me through the following methods.`,
     svgs: [
       { url: 'https://twitter.com/WillAJohnson', logo: '/images/twitter.svg#twitter',
