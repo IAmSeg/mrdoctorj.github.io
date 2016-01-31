@@ -153,8 +153,8 @@ html::before {
   color: var(--light);
 }
 
-.experiments a::before,
-.experiments a::after {
+.projects.experiments a::before,
+.projects.experiments a::after {
   background-color: var(--primary);
 }
 
