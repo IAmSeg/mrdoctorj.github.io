@@ -1,5 +1,6 @@
 :root {
   --cup: #fff9ef;
+  --cup2: #FFEAC7;
   --coffee: #4a2500;
   --coffee-light: #743a00;
 }
@@ -14,7 +15,7 @@
   position: relative;
   top: -50px;
   left: 20px;
-  background-color: var(--cup);
+  background: linear-gradient(to left, var(--cup) 60%, var(--cup2));
   border-radius: 0 0 30px 30px;
 }
 

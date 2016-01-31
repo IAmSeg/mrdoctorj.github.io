@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/macbook.css">
     <link rel="stylesheet" href="styles/coffee.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/smooth-scroll.css">
+    <link rel="stylesheet" href="styles/arrow.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <!-- endbuild -->
   </head>
@@ -43,7 +43,7 @@
           </a>
         </section>
       </section>
-      <smooth-scroll link="#about"></smooth-scroll>
+      <arrow-scroll link="#about"></arrow-scroll>
     </section>
     <section id="about">
       <h1 id="about-header" class="section-header">{{header}}</h1>
@@ -57,7 +57,7 @@
         <my-macbook></my-macbook>
         <my-coffee></my-coffee>
       </section>
-      <smooth-scroll link="#projects"></smooth-scroll>
+      <arrow-scroll link="#projects"></arrow-scroll>
     </section>
     <section id="projects" class="projects open-source">
       <h1 id="projects-header" class="section-header">{{header}}</h1>
@@ -108,18 +108,19 @@
     <script src="/bower_components/vue/dist/vue.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
-    <script>
-      smoothScroll.init();
-    </script>
+
 
     <!-- build:js scripts/main.js -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/macbook.js"></script>
     <script src="scripts/coffee.js"></script>
     <script src="scripts/footer.js"></script>
-    <script src="scripts/smooth-scroll.js"></script>
+    <script src="scripts/arrow.js"></script>
     <!-- endbuild -->
+    <script>
+      smoothScroll.init();
+    </script>
   </body>
 </html>
