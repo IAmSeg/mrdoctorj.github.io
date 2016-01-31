@@ -2,22 +2,18 @@
   --arrow: #555;
 }
 
+.arrow-parent {
+  display: inline-block;
+}
+
 .arrow {
   height: 40px;
   width: 40px;
   transform: rotate(45deg);
   border-bottom: 2px solid var(--arrow);
   border-right: 2px solid var(--arrow);
-}
-
-.arrow-link {
-  position: absolute;
-  bottom: 1em;
-  transform: translateX(-100%);
-}
-
-.arrow-link:hover .arrow {
-  animation: bounce 1.5s infinite linear;
+  animation: bounce 1.5s linear;
+  animation-iteration-count: 3;
 }
 
 @keyframes bounce {

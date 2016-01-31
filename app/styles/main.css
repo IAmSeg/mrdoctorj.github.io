@@ -55,7 +55,7 @@ html::before {
   color: var(--dark);
   font-weight: 300;
   font-variant: small-caps;
-  width: 490px;
+  max-width: 490px;
   margin: 0 auto;
 }
 
@@ -121,7 +121,7 @@ html::before {
 /* @projects */
 #projects {
   position: relative;
-  min-height: 70vh;
+  min-height: 80vh;
   background: color(var(--tertiary) alpha(80%));
   color: var(--light);
 }
@@ -223,6 +223,7 @@ html::before {
 .codepen-embed {
   display: inline-block;
   width: 49%;
+  overflow-x: scroll;
 }
 /* @end codepen embeds */
 /* @links */

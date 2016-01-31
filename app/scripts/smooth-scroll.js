@@ -1,6 +1,6 @@
 let smoothScroll = Vue.extend({
   props: ['link'],
-  template: '<a class="arrow-link" data-scroll href="{{link}}"><div class="arrow"></div></a>'
+  template: '<div class="arrow-parent"><a class="arrow-link" data-scroll href="{{link}}"><div class="arrow"></div></a></div>'
 });
 
 Vue.component('smooth-scroll', smoothScroll);
@@ -11,8 +11,4 @@ new Vue({
 
 new Vue({
   el: '#about'
-});
-
-new Vue({
-  el: '#projects'
 });

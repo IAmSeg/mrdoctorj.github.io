@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/coffee.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/smooth-scroll.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <!-- endbuild -->
   </head>
   <body>
@@ -65,7 +66,6 @@
         <a href="{{project.url}}">{{project.title}}</a>
         <div class="project-desc">{{{project.desc}}}</div>
       </div>
-      <smooth-scroll link="#contact"></smooth-scroll>
     </section>
     <section class="projects experiments" id="experiments">
       <h1 class="section-header">Experiments</h1>
@@ -82,7 +82,7 @@
           <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
         </div>
         <div class="codepen-embed">
-          <p data-height="573" data-theme-id="0" data-slug-hash="pJmjMP" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/pJmjMP/'>iOS iCloud icon</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <p data-height="573" data-theme-id="0" data-slug-hash="WQyYxR" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/WQyYxR/'>Pokemon Trainer Red</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
           <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
         </div>
         <div class="codepen-embed">
@@ -95,7 +95,7 @@
       <h1 class="section-header">{{header}}</h1>
       <p class="section-desc">{{{message}}}</p>
       <div class="contact-methods">
-        <a v-for="svg in svgs" href="{{svg.url}}">
+        <a class="contact-links" v-for="svg in svgs" href="{{svg.url}}">
           <svg class="logo-{{svg.title}}" viewbox="{{svg.viewbox}}">
             <use xlink:href="{{svg.logo}}"></use>
           </svg>
