@@ -1,6 +1,3 @@
-// TODO: remove for production
-Vue.config.debug = true;
-
 // @header
 new Vue({
   el: '#header',
@@ -36,7 +33,7 @@ new Vue({
     aboutText: `I'm a Web Developer from a small town in Missouri.
       I drink lots of coffee, write lots of code and watch lots of football.`,
     aboutText2: `If you'd like to get in touch, or see what I'm up to,
-      <br>checkout <a href="#projects">my projects</a> or <a href=#"contact">give me a shout</a>!`
+      <br>checkout <a data-scroll href="#projects">my projects</a> or <a data-scroll href="#contact">give me a shout</a>!`
   }
 });
 

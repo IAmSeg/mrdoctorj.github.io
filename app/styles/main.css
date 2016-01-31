@@ -138,8 +138,8 @@ html::before {
   font-size: 2em;
 }
 
-.project a::before,
-.project a::after {
+#projets .project a::before,
+#projets .project a::after {
   top: 1.3em;
 }
 
