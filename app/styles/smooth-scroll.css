@@ -1,0 +1,15 @@
+:root {
+  --arrow: #555;
+}
+
+.arrow {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  left: 50%;
+  transform: rotate(45deg) translateX(-50%);
+  border-bottom: 2px solid var(--arrow);
+  border-right: 2px solid var(--arrow);
+  position: absolute;
+  bottom: 1em;
+}
