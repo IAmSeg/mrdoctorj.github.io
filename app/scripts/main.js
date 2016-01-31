@@ -48,7 +48,8 @@ new Vue({
     desc: 'Here are some of my open source projects. See more on my <a href="https://github.com/MrDoctorJ/">GitHub.</a>',
     projects: [
       { url: 'https://github.com/MrDoctorJ/generator-future-webapp', title: 'generator-future-webapp',
-        desc: 'A Yeoman generator to scaffold a front-end project using gulp, babel and cssnext.' },
+        desc: `A Yeoman generator to scaffold a front-end project using gulp, babel and cssnext.<br>
+              <div id="downloads"></div>` },
       { url: 'https://github.com/MrDoctorJ/mrdoctorj.github.io', title: 'This website!',
         desc: 'The code for this website is on GitHub! Feel free to take a look!' }
     ]
@@ -75,4 +76,15 @@ new Vue({
         viewbox: '0 0 233 142' }
     ]
   }
+});
+
+// Projects
+$.ajax({
+  type: 'GET',
+  url: 'https://storage.googleapis.com/generators.yeoman.io/cache.json'
+}).done(data => {
+  let result = $.grep(data, (n, i) => {
+    return n.name === 'future-webapp';
+  });
+  $('#downloads').text(`Downloads: ${result[0].downloads}`);
 });
