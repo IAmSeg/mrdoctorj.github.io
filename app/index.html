@@ -46,7 +46,7 @@
         </section>
         <section id="links">
           <a v-for="link in links" href="{{link.url}}">
-            <svg class="logo-{{link.title}}" viewbox="{{link.viewbox}}">
+            <svg class="logo-{{link.title}}" viewBox="{{link.viewbox}}">
               <use xlink:href="{{link.logo}}"></use>
             </svg>
           </a>
@@ -105,7 +105,7 @@
       <p class="section-desc">{{{message}}}</p>
       <div class="contact-methods">
         <a class="contact-links" v-for="svg in svgs" href="{{svg.url}}">
-          <svg class="logo-{{svg.title}}" viewbox="{{svg.viewbox}}">
+          <svg class="logo-{{svg.title}}" viewBox="{{svg.viewbox}}">
             <use xlink:href="{{svg.logo}}"></use>
           </svg>
         </a>
@@ -120,12 +120,13 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
+    <script src="scripts/main.js"></script>
     <script src="scripts/macbook.js"></script>
     <script src="scripts/coffee.js"></script>
     <script src="scripts/footer.js"></script>
     <script src="scripts/arrow.js"></script>
     <!-- endbuild -->
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
