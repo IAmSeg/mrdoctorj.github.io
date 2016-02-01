@@ -17,6 +17,8 @@
     <meta name="twitter:image" content="/images/name.png">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
+    <!-- Place favicon.ico in the root directory -->
+
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <!-- endbower -->
@@ -77,11 +79,26 @@
       </div>
     </section>
     <section class="projects experiments" id="experiments">
-      <h1 class="section-header">{{header}}</h1>
-      <p class="section-desc">{{{desc}}}</p>
+      <h1 class="section-header">Experiments</h1>
+      <p class="section-desc">
+        Here are some of my experiments. See more on my <a href="http://codepen.io/willalanjohnson/">CodePen</a>.
+      </p>
       <div class="codepen-embeds">
-        <div v-for="embed in embeds" class="codepen-embed">
-          {{{embed.script}}}
+        <div class="codepen-embed">
+          <p data-height="415" data-theme-id="0" data-slug-hash="epRbvb" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/epRbvb/'>Digital Business Card</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+        <div class="codepen-embed">
+          <p data-height="415" data-theme-id="0" data-slug-hash="vOmyqd" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/vOmyqd/'>iBooks</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+        <div class="codepen-embed">
+          <p data-height="573" data-theme-id="0" data-slug-hash="WQyYxR" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/WQyYxR/'>Pokemon Trainer Red</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+        <div class="codepen-embed">
+          <p data-height="573" data-theme-id="0" data-slug-hash="jPwNVK" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/jPwNVK/'>WWDC15</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
         </div>
       </div>
     </section>
@@ -98,19 +115,21 @@
     </section>
     <my-footer></my-footer>
     <!-- build:js scripts/vendor.js -->
-    <script src="/bower_components/vue/dist/vue.min.js"></script>
-    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <!-- bower:js -->
+    <script src="/bower_components/vue/dist/vue.js"></script>
+    <!-- endbower -->
     <!-- endbuild -->
 
+
     <!-- build:js scripts/main.js -->
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/macbook.js"></script>
     <script src="scripts/coffee.js"></script>
     <script src="scripts/footer.js"></script>
     <script src="scripts/arrow.js"></script>
     <!-- endbuild -->
-
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
