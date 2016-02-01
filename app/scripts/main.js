@@ -53,6 +53,24 @@ new Vue({
   }
 });
 
+new Vue({
+  el: '#experiments',
+  data: {
+    header: 'Experiments',
+    desc: 'Here are some of my experiments. See more on my <a href="http://codepen.io/willalanjohnson/">CodePen</a>.',
+    embeds: [
+      { script: `<p data-height="415" data-theme-id="0" data-slug-hash="epRbvb" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/epRbvb/'>Digital Business Card</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+                  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>` },
+      { script: `<p data-height="415" data-theme-id="0" data-slug-hash="vOmyqd" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/vOmyqd/'>iBooks</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>` },
+      { script: `<p data-height="573" data-theme-id="0" data-slug-hash="WQyYxR" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/WQyYxR/'>Pokemon Trainer Red</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>` },
+      { script: `  <p data-height="573" data-theme-id="0" data-slug-hash="jPwNVK" data-default-tab="result" data-user="willalanjohnson" class='codepen'>See the Pen <a href='http://codepen.io/willalanjohnson/pen/jPwNVK/'>WWDC15</a> by Will Johnson (<a href='http://codepen.io/willalanjohnson'>@willalanjohnson</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>` }
+    ]
+  }
+});
+
 // @contact
 new Vue({
   el: '#contact',
