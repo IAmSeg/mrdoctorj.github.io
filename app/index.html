@@ -33,7 +33,7 @@
   </head>
   <body>
     <header id="header">
-      <a v-for="link in links" data-scroll href="{{link.url}}" id="header-{{link.title}}">{{link.title}}</a>
+      <a v-for="link in links" data-scroll href="{{link.url}}" id="header-{{link.title}}" target="_blank">{{link.title}}</a>
     </header>
     <section class="hero">
       <section id="intro">
@@ -45,7 +45,7 @@
           <div id="title-first">Web</div><div id="title-second">Developer</div>
         </section>
         <section id="links">
-          <a v-for="link in links" href="{{link.url}}">
+          <a v-for="link in links" href="{{link.url}}" target="_blank">
             <svg class="logo-{{link.title}}" viewBox="{{link.viewbox}}">
               <use xlink:href="{{link.logo}}"></use>
             </svg>
@@ -104,7 +104,7 @@
       <h1 class="section-header">{{header}}</h1>
       <p class="section-desc">{{{message}}}</p>
       <div class="contact-methods">
-        <a class="contact-links" v-for="svg in svgs" href="{{svg.url}}">
+        <a class="contact-links" v-for="svg in svgs" href="{{svg.url}}" target="_blank">
           <svg class="logo-{{svg.title}}" viewBox="{{svg.viewbox}}">
             <use xlink:href="{{svg.logo}}"></use>
           </svg>

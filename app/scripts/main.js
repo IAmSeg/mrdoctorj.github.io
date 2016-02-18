@@ -5,7 +5,8 @@ new Vue({
     links: [
       { url: '#about', title: 'About' },
       { url: '#projects', title: 'Projects' },
-      { url: '#contact', title: 'Contact' }
+      { url: '#contact', title: 'Contact' },
+      { url: 'https://medium.com/@_willjohnson', title: 'Blog' }
     ]
   }
 });
@@ -20,7 +21,9 @@ new Vue({
       { url: 'https://github.com/MrDoctorJ', viewbox: '0 0 256 250',
         logo: '/images/github.svg#github', title: 'github' },
       { url: 'http://codepen.io/willalanjohnson/', viewbox: '0 0 256 256',
-        logo: '/images/codepen.svg#codepen', title: 'codepen' }
+        logo: '/images/codepen.svg#codepen', title: 'codepen' },
+      { url: 'https://medium.com/@_willjohnson', viewbox: '0 0 256 208',
+        logo: '/images/medium.svg#medium', title: 'medium' }
     ]
   }
 });
