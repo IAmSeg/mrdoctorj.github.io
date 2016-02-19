@@ -5,14 +5,15 @@
 :root {
   --dark: #555;
   --light: #eee;
-  --primary: #05AEFC;
-  --secondary: #09FC83;
-  --tertiary: #FB0044;
+  /*--primary: #05AEFC;*/
+  --primary: rgb(17, 75, 142);
+  /*--secondary: #09FC83;*/
+  --secondary: #de4f4f;
 }
 
 /* @global */
 *::selection {
-  background-color: color(var(--tertiary) alpha(60%));
+  background-color: color(var(--secondary) alpha(60%));
 }
 
 *, ::before, ::after,
@@ -77,17 +78,15 @@ html::before {
   color: color(var(--primary) alpha(70%));
 }
 
-/* TODO: maybe remove? */
-#title-first {
-  /*color: var(--tertiary);*/
-}
-
 #title-second {
   color: color(var(--secondary) alpha(70%));
 }
 /* @end hero */
 
 /* @sections */
+#projects .section-header {
+  color: var(--dark);
+}
 
 .section-header {
   font-variant: small-caps;
@@ -127,7 +126,7 @@ html::before {
 #projects {
   position: relative;
   min-height: 80vh;
-  background: color(var(--tertiary) alpha(80%));
+  background: color(var(--secondary) alpha(80%));
   color: var(--light);
 }
 
@@ -202,6 +201,15 @@ html::before {
   transition: all .5s ease-in-out;
 }
 
+.contact-links > [class^=logo-] {
+  fill: color(var(--light) alpha(80%)) !important;
+}
+
+#contact > div > a:hover::before,
+#contact > div > a:hover::after {
+  background-color: var(--secondary) !important;
+}
+
 .logo-email {
   height: 50px;
   width: 50px;
@@ -240,6 +248,15 @@ a {
   font-family: 'Source Sans Pro';
   position: relative;
   transition: color .5s ease-in-out;
+}
+
+#about a {
+  color: var(--secondary);
+}
+
+#projects a:hover::before,
+#projects a:hover::after {
+  background-color: var(--light);
 }
 
 #header a:hover {

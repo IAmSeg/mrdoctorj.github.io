@@ -1,5 +1,6 @@
 :root {
   --arrow: #555;
+  --light: #eee;
 }
 
 .arrow-parent {
@@ -14,6 +15,11 @@
   border-right: 2px solid var(--arrow);
   animation: bounce 1.5s linear;
   animation-iteration-count: 3;
+}
+
+#about .arrow {
+  border-bottom: 2px solid var(--light);
+  border-right: 2px solid var(--light);
 }
 
 @keyframes bounce {
