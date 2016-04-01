@@ -33,7 +33,7 @@
   </head>
   <body>
     <header id="header">
-      <a v-for="link in links" data-scroll href="{{link.url}}" id="header-{{link.title}}" target="_blank">{{link.title}}</a>
+      <a v-for="link in links" data-scroll href="{{link.url}}" id="header-{{link.title}}" target="{{link.target}}">{{link.title}}</a>
     </header>
     <section class="hero">
       <section id="intro">

@@ -6,7 +6,7 @@ new Vue({
       { url: '#about', title: 'About' },
       { url: '#projects', title: 'Projects' },
       { url: '#contact', title: 'Contact' },
-      { url: 'https://medium.com/@_willjohnson', title: 'Blog' }
+      { url: 'https://medium.com/@_willjohnson', title: 'Blog', target: '_blank' }
     ]
   }
 });
