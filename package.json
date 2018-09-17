@@ -68,6 +68,5 @@
     "webpack-stream": "^3.1.0",
     "wiredep": "3.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
