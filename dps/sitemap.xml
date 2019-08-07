@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://destinypinnacle.services/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/frontend</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/news</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/other</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/recluse</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/smg</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/tutorial</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/lunas-howl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/recluse</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/mountaintop</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/revoker</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/last-word</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/thorn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/iron-banner</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/lumina</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/faq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
