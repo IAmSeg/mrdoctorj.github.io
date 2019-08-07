@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://destinypinnacle.services/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/breakneck</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/carry</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/destiny</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/exotic</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/gambit</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/hush</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/iron banner</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/loaded question</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/lumina</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/oxygen sr3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/pinnacle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/pvp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/recov</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/recovery</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/tags/weapons</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/tags/wendigo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/lunas-howl</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/recluse</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/mountaintop</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -20,6 +26,13 @@
 <url> <loc>https://destinypinnacle.services/iron-banner</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/lumina</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/glory-boost</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/breakneck</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/gambit-boost</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/oxygen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/21-delirium</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/loaded-question</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/hush</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/wendigo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/faq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
