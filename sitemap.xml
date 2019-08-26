@@ -24,13 +24,13 @@
 <url> <loc>https://destinypinnacle.services/last-word</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/thorn</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/iron-banner</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/hush</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/21-delirium</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/breakneck</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://destinypinnacle.services/glory-boost</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://destinypinnacle.services/hush</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/gambit-boost</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://destinypinnacle.services/lumina</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/glory-boost</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/loaded-question</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://destinypinnacle.services/lumina</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/oxygen</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/wendigo</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://destinypinnacle.services/coaching</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
